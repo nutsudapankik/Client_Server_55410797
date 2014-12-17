@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 	
 	JSONParser jParser = new JSONParser();
 	ArrayList<HashMap<String, String>> studentList;
-	private static String url_all_student = "http://www.sawasdeemall.com/android/show_student.php";
+	private static String url_all_student = "http://10.202.44.98:88/android/show_student.php";
 	
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_STUDENT = "student";
